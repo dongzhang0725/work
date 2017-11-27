@@ -1,0 +1,54 @@
+body{margin:0px; padding:0px; font-size:12px; font-family:"微软雅黑"; color:#000}
+/*菜单栏开始*/
+.nav{height:34px; overflow:hidden}
+.nav a
+{
+display: block;
+line-height: 34px;
+width: 100%;
+height: 100%;
+background-color:#6BA42F;
+text-decoration:none;
+color:white;
+padding: 0em 0em;
+font-size:16px;
+}
+.nav a:hover {background-color:#89CCCE}
+.nav td {width:136; text-align: center; border-right:1px solid white;}
+/*菜单栏结束*/
+
+.font1{font-family:"微软雅黑"; font-size:21px; color:#1D7FC6; font-weight:bold; height:60px; line-height:60px;} /*这里把通知公告那个单元格的高度放高一些*/
+.font2{font-family:"微软雅黑"; font-size:18px; color:#fff; background-color:#6BA42F; height: 50px}
+
+.ttTable tr {background:url(../images/bg4.jpg) bottom repeat-x;}
+.ttTable td {height:43px;}
+.a-x-1 {padding-left:10px; background:url(../images/bg5.jpg) left no-repeat;}
+.table1 {margin-top:20px;} /*这里设置菜单和下面的间距*/
+
+/*边框*/
+.left_bg {border:#e6e6e6 solid 1px; background-color:#FFF;}
+
+/*侧栏的选项*/
+.a1:link {font-size:14px;text-decoration:none;color:#000;font-weight:bold;}
+.a1:visited {font-size:14px;text-decoration:none;color:#000;font-weight:bold;}
+.a1:hover {font-size:14px;text-decoration:underline;color:#6BA42F;font-weight:bold;}
+
+/*侧栏的背景*/
+.td1 {border-bottom:#D4E5C5 solid 1px;}
+
+.tr1 {background:url("../images/box_bg1.jpg") repeat; background-size: 100% 100%;}
+.tr1 .td2 {border:#e6e6e6 solid 1px; padding-left:25px; font-size:16px; font-weight:bold; color:#000; width:844px; text-align: left; height:40px; background:url("../images/box_bg2.gif") no-repeat -10px 0px;}
+.td3 {width: 844px}
+.td3 p {text-indent: 2em; font-size:14px;padding: 0 1em;}
+.td4 p {font-size:14px;padding: 0 1em;}
+.td4 h1 {padding: 0 1em;}
+
+.td-photo {padding: 10px 0;}
+.td-introduce {padding: 15px 15px 15px;}
+.span-name {font-size:18px; color:#000; font-weight:bold; display:inline-block; margin:5px 0 10px 0;}
+.span-content {line-height:160%; color:#000;}
+
+.ul1 {color: green}
+.ul1 p {color: black}
+
+.end-td {text-align: center; width:1095px; background:url(../images/bg1.jpg) top repeat-x;} 
